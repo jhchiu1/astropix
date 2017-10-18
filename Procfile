@@ -1,1 +1,1 @@
-web: ode bin/www
+web: node bin/www
