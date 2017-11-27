@@ -15,7 +15,7 @@ picture. Otherwise, get today's picture.  */
 router.get('/fetch_picture', function(req, res, next){
 
 
-    console.log('RANDOM? '  + req.query.random );
+    console.log('RANDOM? '  + req.query.randomnp );
     apod(function(err, apod_data){
 
         if (err) {
